@@ -13,7 +13,7 @@ var App = /** @class */ (function () {
     }
     App.main = function () {
         if (args.length < 1) {
-            console.error("Usage: typescript_test [OPTION]... filename");
+            console.error("Usage: typescript_test [OPTION]... <filename>");
             console.error("Options:");
             console.error("\t-f --force\tForce overwrite output file");
             return;
