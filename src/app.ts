@@ -3,7 +3,7 @@
 import fs = require("fs");
 import readline = require("readline");
 import yargs = require("yargs");
-import parser = require("./parser");
+import parser = require("./parser/parser");
 
 yargs.boolean("force").alias("force", "f");
 const argv: yargs.Arguments  = yargs.argv;
