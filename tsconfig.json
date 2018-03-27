@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "target": "es5",
+        "module": "commonjs",
+        "types": [
+            "node",
+            "yargs"
+        ],
+        "outDir": "./dist/",
+        "sourceMap": true
+    }
+}
