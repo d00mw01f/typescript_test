@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var fs = require("fs");
 var readline = require("readline");
 var yargs = require("yargs");
-var parser = require("./parser");
+var parser = require("./parser/parser");
 yargs.boolean("force").alias("force", "f");
 var argv = yargs.argv;
 var args = argv._;

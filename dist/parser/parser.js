@@ -11,8 +11,7 @@ function flipLine(line) {
         return stringUtils.printNodeInReverse(node);
     }
     catch (e) {
-        console.error("Error in line:");
-        console.error(line);
+        console.error("Error in line: " + line);
         console.error(e.message);
         return stringUtils.ERROR;
     }
